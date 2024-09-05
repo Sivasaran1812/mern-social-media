@@ -36,3 +36,13 @@
 - **React Router**: Implemented for client-side routing and navigation.
 - **Axios**: Used for making API requests to the backend.
 - **CSS/Bootstrap**: Utilized for responsive and user-friendly
+### Backend
+- **Node.js** and **Express.js**: The backbone of the API, managing requests and routing.
+- **MongoDB** and **Mongoose**: Used for database management and efficient data handling.
+- **JWT**: Ensures secure user authentication and session management.
+- **Bcrypt**: Handles password hashing for enhanced security.
+- **Socket.io**: Provides real-time communication for messaging between mentors and students.
+
+---
+
+Thank you for checking out **Connect**! 
