@@ -1,7 +1,32 @@
+Connect is a web application developed using the MERN (MongoDB, Express.js, React, Node.js) stack to facilitate communication and mentorship between aspiring students, professors, and industry professionals. 
+The platform is designed to help students connect with mentors to foster learning, guidance, and professional growth.
+1.User Authentication & Authorization
+   Secure user authentication using JWT (JSON Web Tokens) for both mentors and students.
+   Role-based access control to differentiate between students, professors, and professionals.
+   Encrypted password storage using bcrypt to ensure data security.
+2. Profile Creation and Management
+  Users can create personalized profiles with relevant information like areas of interest, expertise, and goals.
+3. Mentor-Student Matching
+  Implemented a feature that matches students with mentors based on shared interests and fields of study.
+4. Communication Tools
+  Real-time messaging between mentors and students using Socket.io for seamless communication.
+5.Discussion Forum
+  A community space where students and mentors can post questions, share knowledge, and discuss academic or career topics.
+6. Data Storage and Management
+   User data, session details, messages, and reviews are stored securely in a MongoDB database.
+   Efficient querying and data retrieval using Mongoose ORM.
 
-Hi Folks,
-Developed a web application using the MERN (MongoDB, Express.js,
-React, Node.js) Stack to facilitate communication between aspiring
-students, professors, and senior professionals
- Implemented features to connect aspiring students with mentors,
-fostering mentorship relationships.
+Technologies Used
+
+Frontend:
+React.js (Functional components with hooks)
+React Router for navigation
+Axios for API calls
+CSS/Bootstrap for styling
+
+Backend:
+Node.js and Express.js for building the API
+MongoDB and Mongoose for database management
+JWT for user authentication
+Bcrypt for password hashing
+Socket.io for real-time communication
